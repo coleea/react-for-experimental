@@ -7,6 +7,7 @@ import ReRenderTest from './ReRenderTest.tsx'
 import {AppForContext} from './ContextTest.tsx'
 // import {UseHookTest} from './UseHookTestBefore.tsx'
 import {UseHookTest} from './UseHookTestAfter.tsx'
+import {LazyCallTest} from './LazyCallTest.tsx'
 import './index.css'
 
 ReactDOM.createRoot(
@@ -15,9 +16,10 @@ ReactDOM.createRoot(
     // <FetchExample />  
     // <ReRenderTest />
     // <AppForContext />
-    <Suspense fallback={"loading..."}>
-      <UseHookTest url={"https://jsonplaceholder.typicode.com/todos/1"}/>
-    </Suspense>
+    // <Suspense fallback={"loading..."}>
+      // <UseHookTest url={"https://jsonplaceholder.typicode.com/todos/1"} shouldFetch />
+    // </Suspense>
+    <LazyCallTest />
 
 )
 

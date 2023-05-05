@@ -3,9 +3,13 @@ import * as React from 'react'
 
 // React.use()
 
-export function UseHookTest({url} : {url : string}) {
+export function UseHookTest({url, shouldFetch} : {url : string, shouldFetch :boolean}) {
     
-    const data = use(fetch(url).then(r => r.json()))
+    console.log({shouldFetch});
+    
+    const data = shouldFetch 
+                 ? use(fetch(url).then(r => r.json()))
+                 : "default value"
 
     return <div className="">{JSON.stringify(data, null, 4)}</div>
 }
