@@ -5,22 +5,22 @@ dependencies:
     specifier: ^1.4.0
     version: 1.4.0
   react:
-    specifier: ^18.2.0
-    version: 18.2.0
+    specifier: experimental
+    version: 0.0.0-experimental-aef7ce554-20230503
   react-dom:
-    specifier: ^18.2.0
-    version: 18.2.0(react@18.2.0)
+    specifier: experimental
+    version: 0.0.0-experimental-aef7ce554-20230503(react@0.0.0-experimental-aef7ce554-20230503)
   zod:
     specifier: ^3.21.4
     version: 3.21.4
 
 devDependencies:
   '@types/react':
-    specifier: ^18.0.28
-    version: 18.0.28
+    specifier: ^18.0.22
+    version: 18.2.5
   '@types/react-dom':
-    specifier: ^18.0.11
-    version: 18.0.11
+    specifier: ^18.0.7
+    version: 18.2.3
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.57.1
     version: 5.57.1(@typescript-eslint/parser@5.57.1)(eslint@8.38.0)(typescript@5.0.2)
@@ -34,8 +34,8 @@ devDependencies:
     specifier: ^8.38.0
     version: 8.38.0
   eslint-plugin-react-hooks:
-    specifier: ^4.6.0
-    version: 4.6.0(eslint@8.38.0)
+    specifier: experimental
+    version: 0.0.0-experimental-aef7ce554-20230503(eslint@8.38.0)
   eslint-plugin-react-refresh:
     specifier: ^0.3.4
     version: 0.3.4(eslint@8.38.0)
@@ -444,14 +444,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.0.11:
-    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
+  /@types/react-dom@18.2.3:
+    resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
     dependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.2.5
     dev: true
 
-  /@types/react@18.0.28:
-    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
+  /@types/react@18.2.5:
+    resolution: {integrity: sha512-RuoMedzJ5AOh23Dvws13LU9jpZHIc/k90AgmK7CecAYeWmSr3553L4u5rk4sWAPBuQosfT7HmTfG4Rg5o4nGEA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -801,8 +801,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-react-hooks@4.6.0(eslint@8.38.0):
-    resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==}
+  /eslint-plugin-react-hooks@0.0.0-experimental-aef7ce554-20230503(eslint@8.38.0):
+    resolution: {integrity: sha512-XhXasDPddw2UhrMy/W5xu+NPawTuLzSu6jMjWM4uAcGBtjkAaBHyBqL9EVKGBZ3hffLWBvXhQwmWQJRvYUCfDA==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
@@ -1328,18 +1328,18 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /react-dom@18.2.0(react@18.2.0):
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom@0.0.0-experimental-aef7ce554-20230503(react@0.0.0-experimental-aef7ce554-20230503):
+    resolution: {integrity: sha512-AmTwj71nZz4DV4SSfzSqxelZPgnj+ALs4kp9/4QHacTLohDBn9GED2eRTw+E21KMToqT05j1ZSUWurxwFVnKSA==}
     peerDependencies:
-      react: ^18.2.0
+      react: 0.0.0-experimental-aef7ce554-20230503
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 0.0.0-experimental-aef7ce554-20230503
+      scheduler: 0.0.0-experimental-aef7ce554-20230503
     dev: false
 
-  /react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  /react@0.0.0-experimental-aef7ce554-20230503:
+    resolution: {integrity: sha512-Q2OrsLvmqV1Vxlwd/Ce3J9RHAiYqPszHAvKVb78nkIZVwtzH31Mao0cygxB8BYKh8uTtTgMCuMDuxtwMC2jFdw==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -1376,8 +1376,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  /scheduler@0.0.0-experimental-aef7ce554-20230503:
+    resolution: {integrity: sha512-LxuC9SEgP4kB8S1/URsCvx8qLtTfvSILZY8/yo0uNC7weIZIMh3Rf/1ltQP7NAA3zcKOpyvOUS+XyEQOSwTNHw==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
